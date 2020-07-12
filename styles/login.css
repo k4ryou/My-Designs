@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
+* {
+  margin: 0;
+}
+
+body {
+  font-size: 22px;
+}
+.box {
+  width: 250px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tab {
+  font-size: 0;
+}
+.tablinks {
+  width: 125px;
+  margin: 0 0;
+
+  border: 0px solid white;
+  outline: none;
+  text-decoration: none;
+  color: white;
+
+  font-size: 18px;
+  padding: 20px 0;
+  font-weight: bold;
+}
+
+.tableft {
+  background-color: #183967;
+}
+.tableft:hover,
+.tabright:hover {
+  color: cornflowerblue;
+}
+
+.tableftactive {
+  background-color: rgb(12, 28, 51);
+}
+.tabrightactive {
+  background-color: rgb(12, 28, 51);
+}
+
+.tabright {
+  background-color: #183967;
+}
+
+.sign-up-box,
+.log-in-box {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  padding: 1rem 0;
+  background: white;
+  font-weight: bold;
+  background: rgb(12, 28, 51);
+}
+
+.sign-up-title,
+.log-in-title {
+  color: white;
+}
+
+.inputfield {
+  width: 90%;
+  background-color: transparent;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid white;
+  padding: 7px 0;
+  outline: none;
+  color: white;
+  font-weight: bold;
+}
+
+.rocket {
+  width: 40%;
+  margin-top: 1rem;
+}
+.astronaut {
+  width: 40%;
+}
+
+#inputsubmit {
+  width: 90%;
+
+  background-color: cornflowerblue;
+  margin: 10px 0;
+  border: 0px solid white;
+
+  padding: 7px 0;
+  outline: none;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+
+  font-size: 15px;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 0.5; /* Firefox */
+}
+
+.forgotpassword {
+  font-size: 10px;
+  color: white;
+  margin-top: -3px;
+}
+
+.content-login {
+  width: 100%;
+  background-color: #3b3c45;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+  flex: 50%;
+}
+.content-login h1 {
+  color: grey;
+  padding: 1rem;
+  font-size: 2rem;
+}
+.content-logo {
+  width: 100%;
+  background-color: #3b3c45;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+  flex: 50%;
+}
+.content-logo h1 {
+  color: grey;
+  padding: 1rem;
+  font-size: 2rem;
+}
+.logo-app {
+  width: 40%;
+}
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+}

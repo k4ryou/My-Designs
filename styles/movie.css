@@ -1,0 +1,100 @@
+.content-movie-card {
+  width: 100%;
+  background-color: #3b3c45;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+  flex: 50%;
+  font-size: 10px;
+  font-family: "Nunito";
+  flex-direction: column;
+}
+.content-movie-card h1 {
+  color: grey;
+  padding: 1rem;
+  font-size: 2rem;
+}
+.movie-card {
+  width: 280px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.movie-top {
+  padding: 0 1rem;
+}
+.movie-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.rating i {
+  color: #fb2e2e;
+  font-size: 0.8rem;
+}
+.movie-info {
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  padding: 0.5rem 0;
+}
+.movie-descriprion {
+  font-size: 0.8rem;
+  padding: 0.5rem 0;
+}
+.movie-starring span {
+  font-weight: bold;
+  padding-right: 0.3rem;
+}
+.movie-actor {
+  text-decoration: none;
+  color: #fb2e2e;
+  font-weight: bolder;
+  padding: 0 0.1rem;
+  font-size: 0.7rem;
+}
+
+.movie-watch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  margin: 2rem 0;
+}
+.fa-plus-circle {
+  color: black;
+  font-size: 1rem;
+  padding-right: 0.5rem;
+
+  cursor: pointer;
+}
+.add-watchlist {
+  font-weight: bold;
+}
+.start-play {
+  background-color: #fb2e2e;
+  padding: 0.4rem 1rem;
+  margin-left: 0.5rem;
+  color: white;
+  font-size: 0.7rem;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.start-play:hover {
+  background-color: #e10505;
+}
+
+.fa-play-circle {
+  font-size: 1rem;
+  padding-right: 0.5rem;
+}
+
+.movie-image {
+  width: 100%;
+  margin-bottom: -5px;
+  bottom: 0;
+}

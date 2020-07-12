@@ -1,0 +1,70 @@
+.content-calendar {
+  width: 100%;
+  background-color: #3b3c45;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 0;
+  font-family: "Poppins";
+  flex: 50%;
+}
+.content-calendar h1 {
+  color: grey;
+  padding: 1rem;
+  font-size: 2rem;
+}
+.calendar {
+  width: 280px;
+  height: auto;
+  background: #fff;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.date {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+  grid-gap: 10px;
+  box-sizing: border-box;
+}
+.date div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  color: #262626;
+}
+.day {
+  font-weight: 700;
+}
+.day:first-child,
+.number:nth-child(7n + 1) {
+  color: #ff685f;
+  font-weight: 700;
+}
+
+.number.active,
+.number:hover {
+  background: #009688;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+.image {
+  width: 100%;
+  height: 200px;
+  background: url("/images/weather.png");
+  background-size: cover;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.image h2,
+.image h3 {
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+.image h3 {
+  font-weight: 500;
+}

@@ -1,0 +1,109 @@
+.content-player {
+  width: 100%;
+  background-color: #3b3c45;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+  font-family: "Nunito";
+  flex: 50%;
+  flex-direction: column;
+}
+
+.content-player h1 {
+  color: grey;
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.player {
+  width: 290px;
+
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  margin: 10 px 0 0 0;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.top-icons {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 10px;
+}
+.top-icons a {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.top-icons a:hover {
+  color: #b9b6b6;
+  transition: all 0.2s ease-in-out;
+}
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.album-cover {
+  width: 70%;
+  border-radius: 5px;
+}
+.text {
+  text-align: center;
+  margin: 10px 0;
+}
+.text h1 {
+  font-size: 2.2rem;
+  color: white;
+}
+.text h4 {
+  font-size: 1.4rem;
+}
+.time {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 20px;
+}
+.time a {
+  color: white;
+  font-size: 1.1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+.seek {
+  width: 90%;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.3);
+  margin: 5px 20px;
+}
+.fill {
+  width: 40%;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.buttons {
+  margin: 40px 0;
+  text-align: center;
+}
+.buttons a {
+  color: white;
+  font-size: 1.6rem;
+  margin: 0 5px;
+  transition: all 0.3s ease-in-out;
+}
+.buttons a:hover {
+  color: #b9b6b6;
+}
+
+.buttons a:nth-child(1),
+.buttons a:nth-child(5) {
+  opacity: 0.6;
+}
+
+.buttons a:nth-child(3) {
+  border: 2px solid white;
+  padding: 15px 22px;
+  border-radius: 50%;
+}
