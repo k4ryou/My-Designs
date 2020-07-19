@@ -1,22 +1,20 @@
 input[type="button"] {
   width: 50px;
   height: 50px;
-  font-size: 25px;
+  font-size: 20px;
   cursor: pointer;
-  background: transparent;
-  border: none;
+  background-color: transparent;
+
   color: white;
   font-weight: bold;
-  border: 1px solid grey;
-  border-radius: 5px;
+  border: 1px solid white;
 }
 input[type="button"]:focus {
   outline: none;
 }
 input[type="button"]:hover,
 input[type="button"].dark:hover .input[type="button"].red:hover {
-  background-color: black;
-  border-radius: 5px;
+  background-color: #788585;
 }
 .textview:focus {
   outline: none;
@@ -27,28 +25,24 @@ input[type="button"].dark:hover .input[type="button"].red:hover {
   font-size: 25px;
   border: none;
   color: white;
-  background-color: black;
+  background-color: transparent;
   margin: 1rem 1rem 0 1rem;
   text-align: right;
   padding-right: 0.5rem;
-
-  border-radius: 5px;
+  border: 1px solid white;
 }
 .calculator {
   margin: 10px;
   font-size: 0;
   background: transparent;
-
+  border: 1px solid white;
   width: 250px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 5px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 table {
-  margin-left: auto;
-  margin-right: auto;
   margin: 1rem;
 }
 .textview::placeholder {
@@ -57,10 +51,10 @@ table {
 }
 
 input[type="button"].red {
-  color: salmon;
+  color: red;
 }
 input[type="button"].darker {
-  color: skyblue;
+  color: grey;
 }
 
 .content-calculator {
@@ -76,7 +70,7 @@ input[type="button"].darker {
 }
 
 .content-calculator h1 {
-  color: grey;
+  color: white;
   padding: 1rem;
   font-size: 2rem;
 }

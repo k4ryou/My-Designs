@@ -1,0 +1,23 @@
+.btn-flag {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 1.6;
+  transition: 0.3s;
+  display: inline-block;
+
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-flag:active {
+  opacity: 1;
+}
+.dados {
+  text-align: center;
+  margin-top: -17%;
+}

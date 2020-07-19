@@ -14,7 +14,7 @@ footer {
   justify-content: center;
 }
 .footer div {
-  margin: 1rem 1rem;
+  margin: 0.5rem 1rem;
 }
 
 .footer-icons a {
@@ -42,16 +42,11 @@ footer {
 
 @media screen and (max-width: 470px) {
   .footer {
-    background-color: #24252a;
-
     box-sizing: border-box;
     width: 100%;
 
     font-size: 1rem;
-    color: white;
-    display: flex;
-    align-content: center;
-    justify-content: center;
+
     flex-direction: column;
   }
   .footer-icons {

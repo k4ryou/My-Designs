@@ -6,30 +6,34 @@
   justify-content: center;
   flex-direction: column;
   flex: 50%;
-  font-family: "Roboto";
+  font-family: "Poppins";
   padding: 2rem 0;
   flex-direction: column;
 }
 
 .content-menu h1 {
-  color: grey;
+  color: white;
   padding: 1rem;
   font-size: 2rem;
 }
 
 .sidebar {
   background: #2f323a;
-  width: 280px;
+  width: 250px;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
+.image-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
 .profile-image {
-  max-width: 50px;
+  max-width: 100%;
   margin-bottom: 10px;
   padding-top: 15px;
 }

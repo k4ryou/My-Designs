@@ -11,7 +11,7 @@
 }
 
 .content-player h1 {
-  color: grey;
+  color: white;
   padding: 1rem;
   font-size: 2rem;
 }
@@ -19,11 +19,11 @@
 .player {
   width: 290px;
 
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.2);
+
   border-radius: 10px;
   margin: 10 px 0 0 0;
   color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .top-icons {
@@ -46,15 +46,15 @@
   align-items: center;
 }
 .album-cover {
-  width: 70%;
-  border-radius: 5px;
+  width: 65%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
 }
 .text {
   text-align: center;
-  margin: 10px 0;
 }
 .text h1 {
-  font-size: 2.2rem;
+  font-size: 2rem;
   color: white;
 }
 .text h4 {
@@ -63,7 +63,7 @@
 .time {
   display: flex;
   justify-content: space-between;
-  margin: 20px 20px;
+  margin: 10px 20px;
 }
 .time a {
   color: white;
@@ -74,13 +74,13 @@
 .seek {
   width: 90%;
   height: 4px;
-  background: rgba(255, 255, 255, 0.3);
-  margin: 5px 20px;
+  background: grey;
+  margin: 5px 15px;
 }
 .fill {
   width: 40%;
   height: 4px;
-  background: rgba(255, 255, 255, 0.7);
+  background: #e74839;
 }
 
 .buttons {
@@ -103,7 +103,8 @@
 }
 
 .buttons a:nth-child(3) {
-  border: 2px solid white;
+  border: 1px solid transparent;
   padding: 15px 22px;
   border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }

@@ -1,0 +1,39 @@
+.content-quizmaker {
+  width: 100%;
+  background-color: #3b3c45;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+
+  flex: 50%;
+  flex-direction: column;
+}
+
+.content-quizmaker img {
+  width: 60%;
+  padding: 1rem;
+
+  display: block;
+  margin: 0 auto;
+}
+
+.content-quizmaker p {
+  color: white;
+  padding: 2rem;
+}
+
+.content-quizmaker a {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+.content-quizmaker a:hover {
+  color: #0088a9;
+}
+
+@media screen and (max-width: 1025px) {
+  .content-quizmaker img {
+    width: 80%;
+  }
+}

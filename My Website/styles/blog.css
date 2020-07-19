@@ -12,15 +12,15 @@
 }
 
 .content-blog-title {
-  color: grey;
+  color: white;
   padding: 1rem;
   font-size: 2rem;
 }
 .blog-post {
   box-sizing: border-box;
   background-color: white;
-  padding: 2rem;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 1rem;
+
   max-width: 70%;
   border-top: 10px solid #6dcc6e;
   display: flex;
@@ -30,7 +30,7 @@
 .blog-post-image {
   width: 60%;
   position: relative;
-  transform: translateX(-4rem);
+  transform: translateX(-3rem);
   object-fit: cover;
   display: block;
   border: 5px solid white;
@@ -76,7 +76,7 @@
 
 @media screen and (max-width: 868px) {
   .blog-post {
-    max-width: 90%;
+    max-width: 80%;
   }
   .blog-post-image {
     max-width: 30rem;
@@ -90,12 +90,11 @@
     flex-direction: column;
   }
   .blog-post-image {
-    max-width: 100%;
-    min-width: 100%;
+    max-width: 80%;
+    min-width: 80%;
     transform: translate(0, -4rem);
   }
   .content-blog-title {
-    color: grey;
     padding: 1rem;
     font-size: 2rem;
     margin-bottom: 1rem;

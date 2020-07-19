@@ -1,0 +1,10 @@
+.Grid {
+  margin: 0 auto;
+  width: 280px;
+  max-width: 90%;
+  border-radius: 2px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  margin-top: 1%;
+}

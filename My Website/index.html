@@ -5,6 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="styles/top-content.css" />
+    <link rel="stylesheet" type="text/css" href="styles/bottom-content.css" />
     <link rel="stylesheet" type="text/css" href="styles/login.css" />
     <link rel="stylesheet" type="text/css" href="styles/calculator.css" />
     <link rel="stylesheet" type="text/css" href="styles/calendar.css" />
@@ -12,15 +14,19 @@
     <link rel="stylesheet" type="text/css" href="styles/menu.css" />
     <link rel="stylesheet" type="text/css" href="styles/blog.css" />
     <link rel="stylesheet" type="text/css" href="styles/movie.css" />
-    <link rel="stylesheet" type="text/css" href="styles/top-content.css" />
-    <link rel="stylesheet" type="text/css" href="styles/bottom-content.css" />
+    <link rel="stylesheet" type="text/css" href="styles/quizmaker.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/81c155f530.js" crossorigin="anonymous"></script>
     <link href='https://fonts.googleapis.com/css?family=IBM Plex Sans' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
@@ -52,8 +58,10 @@
             <h4>CSS / Javascript / React</h4>
         </div>
         <div class="profile-image">
+
             <img src="images/logofundo.png" alt="">
         </div>
+    </div>
     </div>
 
     <!-- About me -->
@@ -63,13 +71,15 @@
             <h1>About me</h1>
         </div>
         <div class="content-container">
+
             <div class="about-card-container">
+
                 <div class="about-card">
                     <div class="card-front">
                         <img src="images/joaocabral.png" alt="">
                         <div class="about-skills">
                             <h4>João Cabral</h4>
-
+                            <hr>
                             <span>Gamer:</span><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i
                                 class="fas fa-circle"></i><br>
                             <span>Musician:</span><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i
@@ -94,30 +104,53 @@
 
             </div>
             <div class="skills-list">
+
                 <li>
-                    <h3>HTML</h3><span class="bar"><span class="html"></span></span>
-                </li>
-                <li>
-                    <h3>CSS</h3><span class="bar"><span class="css"></span></span>
-                </li>
-                <li>
-                    <h3>Javascript</h3><span class="bar"><span class="javascript"></span></span>
-                </li>
-                <li>
-                    <h3>React</h3><span class="bar"><span class="react"></span></span>
-                </li>
-                <li>
-                    <h3>Node.js</h3><span class="bar"><span class="node"></span></span>
+                    <div data-aos="fade-up-right">
+                        <h3>HTML</h3><span class="bar"><span class="html"></span></span>
+                    </div>
                 </li>
 
                 <li>
-                    <h3>Bootstrap</h3><span class="bar"><span class="bootstrap"></span></span>
+                    <div data-aos="fade-up-right">
+                        <h3>CSS</h3><span class="bar"><span class="css"></span></span>
+                    </div>
                 </li>
                 <li>
-                    <h3>Photoshop</h3><span class="bar"><span class="photoshop"></span></span>
+                    <div data-aos="fade-up-right">
+                        <h3>Javascript</h3><span class="bar"><span class="javascript"></span></span>
+                    </div>
                 </li>
                 <li>
-                    <h3>Illustrator</h3><span class="bar"><span class="illustrator"></span></span>
+                    <div data-aos="fade-up-right">
+                        <h3>React</h3><span class="bar"><span class="react"></span></span>
+                    </div>
+                </li>
+                <li>
+                    <div data-aos="fade-up-right">
+                        <h3>Node.js</h3><span class="bar"><span class="node"></span></span>
+                    </div>
+
+                </li>
+                <li>
+                    <div data-aos="fade-up-right">
+                        <h3>PHP</h3><span class="bar"><span class="php"></span></span>
+                    </div>
+                </li>
+                <li>
+                    <div data-aos="fade-up-right">
+                        <h3>Bootstrap</h3><span class="bar"><span class="bootstrap"></span></span>
+                    </div>
+                </li>
+                <li>
+                    <div data-aos="fade-up-right">
+                        <h3>Photoshop</h3><span class="bar"><span class="photoshop"></span></span>
+                    </div>
+                </li>
+                <li>
+                    <div data-aos="fade-up-right">
+                        <h3>Illustrator</h3><span class="bar"><span class="illustrator"></span></span>
+                    </div>
                 </li>
 
             </div>
@@ -131,19 +164,17 @@
         <div class="work-title">
             <h1>My Designs</h1>
         </div>
-
-
-
     </div>
 
 
 
 
-    </div>
+
 
     <!-- Designs -->
     <div class="main-content">
-        <div class="content-login">
+
+        <div class="content-login" data-aos="fade-up-right">
             <h1>Sign Up/Login</h1>
 
             <div class="box">
@@ -157,11 +188,11 @@
                 <div class="tabcontent" id="sign-up">
                     <div class="sign-up-box">
 
-                        <img src="images/spaceship.png" class="rocket" alt="">
+                        <img src="images/signup.png" class="signup" alt="">
+                        <h4>DISCOVER</h4>
 
-
-                        <input type="text" class="inputfield" name="inputname" id="inputname" placeholder="Username">
-                        <input type="text" class="inputfield" name="inputmail" id="inputmail" placeholder="E-mail">
+                        <input type="input" class="inputfield" name="inputname" id="inputname" placeholder="Username">
+                        <input type="input" class="inputfield" name="inputmail" id="inputmail" placeholder="E-mail">
                         <input type="password" class="inputfield" name="inputpass" id="inputpass"
                             placeholder="Password">
                         <button type="submit" id="inputsubmit">Create Account</button>
@@ -171,18 +202,19 @@
 
                 <div class="tabcontent" id="log-in">
                     <div class="log-in-box">
-
-                        <img src="images/astronaut.png" class="astronaut" alt="">
+                        <img src="images/login.png" class="login" alt="">
+                        <h4>WELCOME</h4>
                         <input type="text" class="inputfield" name="inputname" id="inputname" placeholder="Username">
                         <input type=" password" class="inputfield" name="inputpass" id="inputpass"
                             placeholder="Password">
-                        <button type="submit" id="inputsubmit">Enter</button>
                         <p class="forgotpassword">Forgot Password?</p>
+                        <button type="submit" id="inputsubmit">Enter</button>
+
                     </div>
                 </div>
             </div>
         </div>
-        <div class="content-calculator">
+        <div class="content-calculator" data-aos="fade-up-right">
             <h1>Calculator</h1>
             <div class="calculator">
                 <form name="form">
@@ -226,12 +258,9 @@
                 </form>
             </div>
         </div>
-        <div class="content-logo">
-            <h1>Bus App Logo</h1>
-            <img class="logo-app" src="images/logogondomarense.png" alt="">
-        </div>
 
-        <div class="content-calendar">
+
+        <div class="content-calendar" data-aos="fade-up-right">
             <h1>Calendar</h1>
             <div class="calendar">
                 <div class="image">
@@ -285,9 +314,10 @@
             </div>
         </div>
 
-        <div class="content-player">
+        <div class="content-player" data-aos="fade-up-right">
             <h1>Music Player</h1>
             <div class="player">
+
                 <div class="top-icons">
                     <a> <i class="far fa-heart"></i></a>
                     <a> <i class="fas fa-plus"></i></a>
@@ -321,12 +351,12 @@
             </div>
         </div>
 
-        <div class="content-menu">
+        <div class="content-menu" data-aos="fade-up-right">
             <h1>Menu</h1>
             <div class="sidebar">
-
-
-                <img src="images/boy.png" class="profile-image" alt="">
+                <div class="image-content">
+                    <img src="images/boy.png" class="profile-image" alt="">
+                </div>
                 <h4>João</h4>
                 <a><i class="fas fa-desktop"></i><span>Dashboard</span></a>
                 <a><i class="fas fa-cogs"></i><span>Components</span></a>
@@ -337,7 +367,7 @@
             </div>
         </div>
 
-        <div class="content-blog">
+        <div class="content-blog" data-aos="fade-up-right">
             <h1 class="content-blog-title">Blog Post</h1>
             <div class="blog-post">
 
@@ -361,8 +391,8 @@
 
         </div>
 
-        <div class="content-movie-card">
-            <h1>Movie/TV Show App</h1>
+        <div class="content-movie-card" data-aos="fade-up-right">
+            <h1>Movie/TV App</h1>
             <div class="movie-card">
                 <div class="movie-top">
                     <p class="movie-title">Mad Men</p>
@@ -401,6 +431,16 @@
 
             </div>
         </div>
+        <div class="content-quizmaker" data-aos="fade-up-right">
+            <div>
+                <img src="images/logoquizmaker.png" alt="">
+                <p>Quizmaker is a Website that allows the user to create Buzzfeed-style quizes. It
+                    includes user creation, quiz making and quiz sharing. It was developed using PHP, MySQL,
+                    Javascript and Bootstrap. </p>
+                <a href="http://www.joaoquizmaker.epizy.com/" target="_blank"><button class="contact">Show
+                        more</button></a>
+            </div>
+        </div>
     </div>
 
     <!-- Footer -->
@@ -428,6 +468,9 @@
     <script src="javascript/calculator.js"></script>
     <script src="javascript/top-content.js"></script>
 </body>
+<script>
+    AOS.init();
+</script>
 
 
 </html>
