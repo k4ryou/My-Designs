@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="div" ng-app="myApp" ng-controller="myCtrl">
+   
+      <div class="main respostas">
+        <div class=" resp  " ng-click="mudartopico('Nome')"><strong>Nome:</strong> {{nome}}</div>
+        <div class=" resp " ng-click="mudartopico('Animal')"><strong>Animal:</strong> {{animal}}</div>
+        <div class=" resp " ng-click="mudartopico('Cidade')"><strong>Cidade:</strong> {{cidade}}</div>
+        <div class=" resp " ng-click="mudartopico('Planta/Fruto')"><strong>Planta/Fruto:</strong>
+          {{plantafruto}}</div>
+        <div class=" resp " ng-click="mudartopico('Profissão')"><strong>Profissão:</strong>
+          {{profissao}}</div>
+        <div class=" resp " ng-click="mudartopico('Marca')"><strong>Marca:</strong> {{marca}}</div>
+      </div>
+
+      <div class="main jogo">
+        <p class="labelresposta">{{descricao}}</p>
+        <small class="form-text">Utiliza a tecla Enter para confirmar a resposta.</small>
+        <input class="" id="respostajogo" type="text" ng-model="resposta"
+          ng-keydown="inserirresposta($event)">
+        
+        <p class="erro"> {{erro}}</p>
+      </div>
+      <div class="main regras " ng-model="temporizador">
+        <button class="button " ng-click="gerarletra()">Começar</button>
+        <p id="timer" class="pt-4">Tempo restante:</p>
+        <div id="output"></div>
+      </div>
+    </div>
+
+  </div>
+
+  
+
+
+
+
+
+  <script src="controllers.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script> -->
+
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+.div{
+    display:flex;
+    margin: auto auto;
+    width:90%;
+
+    margin-top: 1%;
+    justify-content: center;
+    
+   
+}
+.main{
+    background-color: #4CAF50;
+    color:white;
+    border-radius: 4px;
+    width:40%;
+    justify-content: center;
+}
+.resp{
+    font-size: 1.2rem;
+    padding: 3% 0% 3% 1%;
+}
+.respostas{
+    margin-right: 1%;
+}
+
+.jogo{
+    text-align: center;
+    align-content: center;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+input[type="text"]{
+    width:90%;
+    border-radius: 4px;
+    font-size: 1.5rem;   
+}
+input[type="text"]:disabled{
+    background: lightgrey; 
+}
+
+.labelresposta{
+    font-size: 2rem;
+    margin-top: 25%;
+    margin-bottom: 0;
+  
+}
+.erro{
+    font-weight: bold;
+    color: white;    
+}
+
+.regras{
+    text-align: center;
+    margin-left: 1%;
+    justify-content: center;
+}
+
+  #output{
+    /* The command I know best. */
+    text-transform:uppercase;
+    color:#fdf6f0;
+    font-size:4rem;
+    font-weight:bold;
+    text-align:center;
+    text-shadow:0.08em 0em black;
+  }
+
+  .button {
+    background-color: white; /* Green */
+    border: none;
+    color: #4CAF50;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 15%;
+    border-radius: 4px;
+    font-size: 1.1rem;
+  }
+  .button:hover {
+    background-color: #357a38;
+    color: white;
+  }
+  #timer{
+    font-size: 1.2rem; 
+    font-weight: bold;  
+}
+
+  #output {
+    width: 50%;
+    margin: 0 auto;
+    
+  }
+
+  .resp:hover{
+      background-color: #357a38;
+      border-radius: 4px;
+  }
+
+ @media (max-width:500px){
+     .div{
+         flex-direction:column;
+                 
+
+        
+     }
+     .main{
+         width:99%;
+        
+         margin: 0 auto;
+        }
+        .regras{
+            text-align: center;
+            margin-top: 1%;
+        }
+        .respostas{
+            margin-bottom: 2%;
+        }
+        .labelresposta{
+            margin-top: 0%;
+        }
+        .button{
+        margin-top: 2%;    
+        }
+        .resp{
+            font-size: 1rem;
+            padding: 1% 0% 1% 1%;
+        }
+        #output{
+            font-size: 3rem;
+        }
+        
+ }
